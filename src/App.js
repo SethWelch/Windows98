@@ -4,6 +4,8 @@ import { Grid, ThemeProvider, createTheme } from "@mui/material"
 import { default as lightTheme } from "./MuiTheme"
 import Desktop from "./Desktop"
 
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
   const theme = createTheme(lightTheme)
 
@@ -14,6 +16,7 @@ function App() {
           <Desktop />
         </Grid>
       </Grid>
+      <Analytics />
     </ThemeProvider>
   )
 }
