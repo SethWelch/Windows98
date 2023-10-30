@@ -1,6 +1,4 @@
-import React from "react"
-
-function Documents({ sx }) {
+function Documents({ sx } : ImageFileProps) {
   return (
     <img
       style={{ ...sx }}

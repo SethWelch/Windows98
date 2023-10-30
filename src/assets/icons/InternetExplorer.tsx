@@ -1,6 +1,4 @@
-import React from "react"
-
-function InternetExplorer({ sx }) {
+function InternetExplorer({ sx }: ImageFileProps) {
   return (
     <img
       style={{ ...sx }}

@@ -1,6 +1,4 @@
-import React from "react"
-
-function Minesweeper({ sx }) {
+function Minesweeper({ sx }: ImageFileProps) {
   return (
     <img
       style={{ ...sx }}

@@ -1,6 +1,4 @@
-import React from "react"
-
-function RecycleBin({ sx }) {
+function RecycleBin({ sx }: ImageFileProps) {
   return (
     <img
       style={{ ...sx }}

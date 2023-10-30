@@ -1,6 +1,4 @@
-import React from "react"
-
-function Notepad({ sx }) {
+function Notepad({ sx }: ImageFileProps) {
   return (
     <img
       style={{ ...sx }}
